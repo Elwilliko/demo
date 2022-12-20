@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.zip.DataFormatException;
 
-@CrossOrigin(origins = {"*"})
+//@CrossOrigin(origins = {"*"})
+@CrossOrigin
 @RestController
 @RequestMapping("/api/productos")
 public class ProductoContoller {
